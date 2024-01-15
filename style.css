@@ -79,10 +79,27 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* -------- About ------------ */
+#about img {
+  width: 100%;
+}
+
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  display:flex;
+  flex-direction: column;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
 }
 
 form label {
@@ -102,6 +119,18 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+}
+/* ------- Ideas ------- */
+#ideas img {
+  width: 100%;
+}
+
+/* ------- host ------- */
+#host img {
+  width: 100%;
+}
+#host ul {
+  padding-bottom: 20px;
 }
 
 /* -------  Footer ------- */
